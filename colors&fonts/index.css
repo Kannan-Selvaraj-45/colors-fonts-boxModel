@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+#values {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  width: 500px;
+  border: 0;
+  border-radius: 5px;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+#values li {
+  width: 125px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+#values > li:nth-child(1) {
+  background-color: tomato;
+}
+#values > li:nth-child(2) {
+  background-color: #ffa500;
+  opacity: 0.9;
+}
+#values > li:nth-child(3) {
+  background-color: rgb(30, 144, 255);
+}
+#values > li:nth-child(4) {
+  background-color: rgb(60, 179, 113);
+}
+#values > li:nth-child(5) {
+  background-color: rgba(128, 128, 128, 0.8);
+}
+#values > li:nth-child(6) {
+  background-color: rgba(106, 90, 205, 0.9);
+}
+#values > li:nth-child(7) {
+  background-color: hsl(300, 76%, 72%);
+}
+
+#values > li:nth-child(8) {
+  background-color: hsla(0, 0%, 83%, 1);
+}
+#values > li:hover {
+  background-color: rgb(245, 248, 54);
+  color: #000;
+}
+
+ul {
+  width: 100%;
+}
+
+#fonts {
+  font-size: 24px;
+}
+
+#fonts > li:nth-child(1) {
+  font-family: serif;
+}
+#fonts > li:nth-child(2) {
+  font-family: sans-serif;
+}
+
+#fonts > li:nth-child(3) {
+  font-family: monospace;
+}
+
+#fonts > li:nth-child(4) {
+  font-family: cursive;
+}
+#fonts > li:nth-child(5) {
+  font-family: fantasy;
+}
+
+#font-styles {
+  font-size: 24px;
+}
+#font-styles li:nth-child(1) {
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 1.5em; /* 40px/16=2.5em or 2.5x16=40px*/
+}
+#font-styles li:nth-child(2) {
+  font-style: italic;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+#font-styles li:nth-child(3) {
+  font-style: oblique;
+}
+
+#google-fonts > li:nth-child(1) {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+#google-fonts > li:nth-child(2) {
+  font-family: "Sofia", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+#google-fonts > .sixtyfour-convergence-style {
+  font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  font-variation-settings: "BLED" 0, "SCAN" 0, "XELA" 0, "YELA" 0;
+}
+
+mark:hover {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+mark::selection{
+  background-color: red;
+}
